@@ -29,6 +29,6 @@ workflows:
       - build
       - otherTest
       - test
-          requires:
-            - otherTest
+        requires:
+          - otherTest
 
